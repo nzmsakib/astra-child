@@ -1,0 +1,12 @@
+.main-header-bar {
+  transition: all 0.3s ease-in-out;
+}
+.main-header-bar-sticky-top {
+  position: fixed;
+	position: -webkit-fixed;
+  top: 0;
+  width: 100%;
+}
+.main-header-bar.main-header-bar-sticky-top {
+  font-size: 8px;
+}
